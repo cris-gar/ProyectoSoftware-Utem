@@ -60,11 +60,25 @@
 \begin_body
 
 \begin_layout Title
-Sistema de categorización de competencia de los funcionarios de la Facultad
- 
+Sistema de categorización de competencia de los funcionarios de la Facultad.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Date
+09/05/13
+\end_layout
+
+\begin_layout Abstract
+En la Universidad Tecnologica Metropolitana actualmente no cuenta con un
+ sistema atomatizado de categorizacion de los academicos de competencias
+ de los de los funcionarios de la Facultdad, para esto realizaremos un servicio
+ web donde usuarios normales (permisos de solo lectura) podran solamente
+ ver informacion no privilegiada de los academicos, usuarios con permisos
+ especiales (escritura y lectura) podran ver la informacion en su totalidad
+ de los academicos, actualizarla y realizar inferencias estadisticas respectos
+ a ésta.
+\end_layout
+
+\begin_layout Section
 Stakeholder
 \end_layout
 
@@ -76,37 +90,171 @@ Director de escuela de Informatica, Decano, Vicerrector Academico, Rector.
 Secretaria de Departamento.
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Requirimientos
 \end_layout
 
+\begin_layout Subsection
+Método: 6 w's.
+\end_layout
+
 \begin_layout Itemize
-Qué: Sistema capaz de visualizar, categorizar, filtrar, inferir estadisticas,
+Qué: Sistema capaz de visualizar, categorizar, filtrar, inferir estadísticas,
  modificar datos internamente por los encargados respectivos.
 \end_layout
 
 \begin_layout Itemize
-Comó: Es una pagina web capaz de realizar funciones especificas de acuerdo
- a sus roles, stakeholder.
+Cómo: Es una página web capaz de realizar funciones específicas de acuerdo
+ a sus roles, stakeholders.
 \end_layout
 
 \begin_layout Itemize
-Dondé: informatica.utem.cl/academicos.
+Dónde: 
+\begin_inset CommandInset href
+LatexCommand href
+target "informatica.utem.cl/academicos"
+
+\end_inset
+
+(Ideal).
 \end_layout
 
 \begin_layout Itemize
-Por qué: Por que en la actualidad, no exite una herramienta , digital capaz
- de realizarlo de forma automatica.
+Por qué: Porque en la actualidad, no existe una herramienta, digital capaz
+ de realizarlo de forma automática.
 \end_layout
 
 \begin_layout Itemize
-Cuandó: Proyecto a realizarse durante el 1° semestre para el año 2013 de
- Ingenieria en Software.
+Cuándo: Proyecto a realizarse durante el 1° semestre para el año 2013 de
+ Ingeniería en Software.
 \end_layout
 
 \begin_layout Itemize
-Quién: Este proyecto beneficiaria a Rector, Vicerrector Academico, etc.,
+Quién: Este proyecto beneficiaria a Rector, Vicerrector Academico, etc.
+\end_layout
+
+\begin_layout Section
+Historias de usuario.
+\end_layout
+
+\begin_layout Subsection
+Número: 1
+\end_layout
+
+\begin_layout Itemize
+Historia: Asignación de permisos.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Director de Escuela.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Urgente.
+\end_layout
+
+\begin_layout Itemize
+Programador Responsable:
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Escuela quiero que, existan permisos de
+ escritura y/o lectura, y dependiendo de éstos pueda accederse a la información.
  
+\end_layout
+
+\begin_layout Itemize
+Observaciones:
+\end_layout
+
+\begin_layout Subsection
+Numero: 2
+\end_layout
+
+\begin_layout Itemize
+Historia: Permisos.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Director de Escuela.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Urgente.
+\end_layout
+
+\begin_layout Itemize
+Programador Responsable:
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Escuela quiero que, el Rector, Vicerrector
+ Academico y Decano sean capaces de acceder a la informacion, filtrarla
+ y obtener datos estaditisco de ésta.
+\end_layout
+
+\begin_layout Itemize
+Observaciones: ¿Qué datos especificamente quiere?
+\end_layout
+
+\begin_layout Subsection
+Numero: 3
+\end_layout
+
+\begin_layout Itemize
+Historia: Modificar.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Director de Escuela.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Alta.
+\end_layout
+
+\begin_layout Itemize
+Programador Responsable:
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Escuela quiero que, la información sea
+ capas de ser modificada por el Director de Departamento y la Secretaria
+ de Departamento.
+\end_layout
+
+\begin_layout Itemize
+Observaciones:
+\end_layout
+
+\begin_layout Subsection
+Numero: 4
+\end_layout
+
+\begin_layout Itemize
+Historia: Qué mostrar.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Director de Escuela.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Alta.
+\end_layout
+
+\begin_layout Itemize
+Programador Responsable:
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Escuela quiero que, la información se muestre
+ con los mismos datos que el archivo adjuntado en el correo enviado a Guillermo
+ Rojas el 9 de mayo a las 9:49 del 2013, asumiendo los permisos de acceso.
+\end_layout
+
+\begin_layout Itemize
+Observaciones:
 \end_layout
 
 \end_body

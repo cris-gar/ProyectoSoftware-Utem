@@ -139,7 +139,7 @@ Usuario: Director de Escuela.
 \end_layout
 
 \begin_layout Itemize
-Prioridad: Alta.
+Prioridad: Urgente.
 \end_layout
 
 \begin_layout Itemize
@@ -169,7 +169,7 @@ Usuario: Director de Escuela.
 \end_layout
 
 \begin_layout Itemize
-Prioridad: Alta.
+Prioridad: Urgente.
 \end_layout
 
 \begin_layout Itemize
@@ -191,7 +191,7 @@ Numero: 3
 \end_layout
 
 \begin_layout Itemize
-Historia: Categorizar.
+Historia: Modificar.
 \end_layout
 
 \begin_layout Itemize
@@ -207,12 +207,43 @@ Programador Responsable:
 \end_layout
 
 \begin_layout Itemize
-Descripción: Yo como Director de Escuela quiero que, la información este
- almacenada en categorias para poder ser vista.
+Descripción: Yo como Director de Escuela quiero que, la información sea
+ capas de ser modificada por el Director de Departamento y la Secretaria
+ de Departamento.
 \end_layout
 
 \begin_layout Itemize
-Observaciones: 
+Observaciones:
+\end_layout
+
+\begin_layout Subsection
+Numero: 4
+\end_layout
+
+\begin_layout Itemize
+Historia: Qué mostrar.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Director de Escuela.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Alta.
+\end_layout
+
+\begin_layout Itemize
+Programador Responsable:
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Escuela quiero que, la información se muestre
+ con los mismos datos que el archivo adjuntado en el correo enviado a Guillermo
+ Rojas el 9 de mayo a las 9:49 del 2013, asumiendo los permisos de acceso.
+\end_layout
+
+\begin_layout Itemize
+Observaciones:
 \end_layout
 
 \end_body
