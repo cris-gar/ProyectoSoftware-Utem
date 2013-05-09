@@ -68,17 +68,26 @@ Sistema de categorización de competencia de los funcionarios de la Facultad.
 \end_layout
 
 \begin_layout Abstract
-En la Universidad Tecnológica Metropolitana actualmente no cuenta con un
- sistema automatizado de categorización de competencias de los de los funcionari
-os de la Facultad, para esto realizaremos un servicio web donde usuarios
- normales (permisos de solo lectura) podrán solamente ver información no
- privilegiada de los académicos, usuarios con permisos especiales (escritura
- y lectura) podrán ver la información en su totalidad de los académicos,
- actualizarla y realizar inferencias estadísticas respectos a ésta.
+En la Universidad Tecnológica Metropolitana en la actualidad, no cuentacon
+ un sistema activo automatizado de las categorizaciones de competencias,
+ aptitudes, especializaciones, y virtudes de los de los funcionarios de
+ la Facultad.
+ Para suplir esta necesidad, realizaremos un servicio web, en donde usuarios
+ con un perfil determinado por un rol o papel, accederán a información muy
+ particular y no sensible, es decir sólo lectura.
+ Así mismo, existirán otros roles, con distintos permisos especiales como
+ de escritura y lectura, los cuales podrán ver más sensible con respecto
+ de los académicos, actualizarla y realizar inferencias estadísticas respectos
+ a ésta.
+\end_layout
+
+\begin_layout Abstract
+Este servicio será capaz de entregar uan información concisa de quiénes
+ son nuestros académicos y para qué son buenos.
 \end_layout
 
 \begin_layout Section
-Stakeholder
+Stakeholders
 \end_layout
 
 \begin_layout Itemize
