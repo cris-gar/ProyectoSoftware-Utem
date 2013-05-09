@@ -131,6 +131,10 @@ Número: 1
 \end_layout
 
 \begin_layout Itemize
+Historia: Asignación de permisos.
+\end_layout
+
+\begin_layout Itemize
 Usuario: Director de Escuela.
 \end_layout
 
@@ -150,6 +154,36 @@ Descripción: Yo como Director de Escuela quiero que, existan permisos de
 
 \begin_layout Itemize
 Observaciones:
+\end_layout
+
+\begin_layout Subsection
+Numero: 2
+\end_layout
+
+\begin_layout Itemize
+Historia: Permisos.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Director de Escuela.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Alta.
+\end_layout
+
+\begin_layout Itemize
+Programador Responsable:
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Escuela quiero que, el Rector, Vicerrector
+ Academico y Decano sean capaces de acceder a la informacion, filtrarla
+ y obtener datos estaditisco de ésta.
+\end_layout
+
+\begin_layout Itemize
+Observaciones: ¿Qué datos especificamente quiere?
 \end_layout
 
 \end_body
