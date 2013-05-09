@@ -63,8 +63,22 @@
 Sistema de categorización de competencia de los funcionarios de la Facultad.
 \end_layout
 
+\begin_layout Author
+Por: Cristian Garrido, Guillermo Rojas, Leonardo Jofre
+\end_layout
+
 \begin_layout Date
 09/05/13
+\end_layout
+
+\begin_layout Abstract
+En la Universidad Tecnológica Metropolitana actualmente no cuenta con un
+ sistema automatizado de categorización de competencias de los de los funcionari
+os de la Facultad, para esto realizaremos un servicio web donde usuarios
+ normales (permisos de solo lectura) podrán solamente ver información no
+ privilegiada de los académicos, usuarios con permisos especiales (escritura
+ y lectura) podrán ver la información en su totalidad de los académicos,
+ actualizarla y realizar inferencias estadísticas respectos a ésta.
 \end_layout
 
 \begin_layout Section
