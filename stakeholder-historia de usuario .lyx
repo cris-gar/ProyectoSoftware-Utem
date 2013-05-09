@@ -186,5 +186,35 @@ Descripción: Yo como Director de Escuela quiero que, el Rector, Vicerrector
 Observaciones: ¿Qué datos especificamente quiere?
 \end_layout
 
+\begin_layout Subsection
+Numero: 3
+\end_layout
+
+\begin_layout Itemize
+Historia: Modificar.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Director de Escuela.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Alta.
+\end_layout
+
+\begin_layout Itemize
+Programador Responsable:
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Escuela quiero que, la información sea
+ capas de ser modificada por el Director de Departamento y la Secretaria
+ de Departamento.
+\end_layout
+
+\begin_layout Itemize
+Observaciones: 
+\end_layout
+
 \end_body
 \end_document
