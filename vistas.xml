@@ -1,0 +1,62 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1135" measuredH="603" mockupW="1040" mockupH="589">
+  <controls>
+    <control controlID="46" controlTypeID="__group__" x="95" y="14" w="1040" h="589" measuredW="1040" measuredH="589" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1040" h="589" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="46">
+          <controlProperties>
+            <text>A%20Web%20Page%0Ahttp%3A//www.informatica.utem.cl/academicos/index.html</text>
+            <value>19</value>
+            <verticalScrollbar>true</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="81" y="209" w="561" h="33" measuredW="483" measuredH="27" zOrder="1" locked="false" isInGroup="46">
+          <controlProperties>
+            <selectedIndex>0</selectedIndex>
+            <text>Inicio%2C%20Qui%E9nes%20Somos%2C%20Acad%E9micos%2C%20Historia%20%2CAyuda%2C%20Contacto</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::CoverFlow" x="81" y="88" w="551" h="106" measuredW="493" measuredH="198" zOrder="2" locked="false" isInGroup="46"/>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="759" y="88" w="203" h="74" measuredW="77" measuredH="79" zOrder="3" locked="false" isInGroup="46">
+          <controlProperties>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Paragraph" x="100" y="277" w="529" h="252" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="46">
+          <controlProperties>
+            <text>%20%0AAc%E1%20pueden%20ir%20%5Bnoticias%5D%2C%20con%20respecto%20a%20los%20*acad%E9micos*%20de%20la%20escuela.</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::SearchBox" x="745" y="184" w="217" h="-1" measuredW="120" measuredH="25" zOrder="5" locked="false" isInGroup="46">
+          <controlProperties>
+            <text>B%FAsqueda%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="745" y="223" w="-1" h="-1" measuredW="46" measuredH="27" zOrder="6" locked="false" isInGroup="46">
+          <controlProperties>
+            <text>User%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::TextInput" x="814" y="223" w="-1" h="-1" measuredW="73" measuredH="27" zOrder="7" locked="false" isInGroup="46">
+          <controlProperties>
+            <text>Password%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="908" y="223" w="-1" h="-1" measuredW="54" measuredH="27" zOrder="8" locked="false" isInGroup="46">
+          <controlProperties>
+            <text>Login</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::FieldSet" x="745" y="277" w="232" h="267" measuredW="200" measuredH="170" zOrder="9" locked="false" isInGroup="46">
+          <controlProperties>
+            <text>Redes%20Sociales%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::StickyNote" x="759" y="302" w="203" h="215" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="46">
+          <controlProperties>
+            <text>Ac%E1%20pueden%20ir%20tweets%20que%20tengan%20alg%FAn%20hashtag%20predeterminado%2C%20como%20%23infoutem%20verbigracia.</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
