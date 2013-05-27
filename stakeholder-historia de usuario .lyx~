@@ -91,7 +91,8 @@ Stakeholders
 \end_layout
 
 \begin_layout Itemize
-Director de escuela de Informatica, Decano, Vicerrector Academico, Rector.
+Director de Departamento de Informatica, Decano, Vicerrector Academico,
+ Rector.
 \end_layout
 
 \begin_layout Itemize
@@ -154,7 +155,7 @@ Historia: Asignación de permisos.
 \end_layout
 
 \begin_layout Itemize
-Usuario: Director de Escuela.
+Usuario: Director de Departamento.
 \end_layout
 
 \begin_layout Itemize
@@ -162,12 +163,9 @@ Prioridad: Urgente.
 \end_layout
 
 \begin_layout Itemize
-Programador Responsable:
-\end_layout
-
-\begin_layout Itemize
-Descripción: Yo como Director de Escuela quiero que, existan permisos de
- escritura y/o lectura, y dependiendo de éstos pueda accederse a la información.
+Descripción: Yo como Director de Departamento quiero que, existan permisos
+ de escritura y/o lectura, y dependiendo de éstos pueda accederse a la informaci
+ón.
  
 \end_layout
 
@@ -184,7 +182,7 @@ Historia: Permisos.
 \end_layout
 
 \begin_layout Itemize
-Usuario: Director de Escuela.
+Usuario: Director de Departamento.
 \end_layout
 
 \begin_layout Itemize
@@ -192,17 +190,13 @@ Prioridad: Urgente.
 \end_layout
 
 \begin_layout Itemize
-Programador Responsable:
+Descripción: Yo como Director de Departamento quiero que, Vicerrector Académico
+ y Decano sean capaces de acceder a la información, filtrarla y obtener
+ datos estaditíscos de ésta.
 \end_layout
 
 \begin_layout Itemize
-Descripción: Yo como Director de Escuela quiero que, el Rector, Vicerrector
- Academico y Decano sean capaces de acceder a la informacion, filtrarla
- y obtener datos estaditisco de ésta.
-\end_layout
-
-\begin_layout Itemize
-Observaciones: ¿Qué datos especificamente quiere?
+Observaciones: 
 \end_layout
 
 \begin_layout Subsection
@@ -214,7 +208,7 @@ Historia: Modificar.
 \end_layout
 
 \begin_layout Itemize
-Usuario: Director de Escuela.
+Usuario: Director de Departamento.
 \end_layout
 
 \begin_layout Itemize
@@ -222,17 +216,13 @@ Prioridad: Alta.
 \end_layout
 
 \begin_layout Itemize
-Programador Responsable:
-\end_layout
-
-\begin_layout Itemize
-Descripción: Yo como Director de Escuela quiero que, la información sea
- capas de ser modificada por el Director de Departamento y la Secretaria
+Descripción: Yo como Director de Departamento quiero que, la información
+ sea capaz de ser modificada por el Director de Departamento y la Secretaria
  de Departamento.
 \end_layout
 
 \begin_layout Itemize
-Observaciones:
+Observaciones:¿Cómo controlamos lo que la(s) secretaria(s) modifica(n)?
 \end_layout
 
 \begin_layout Subsection
@@ -244,7 +234,7 @@ Historia: Qué mostrar.
 \end_layout
 
 \begin_layout Itemize
-Usuario: Director de Escuela.
+Usuario: Director de Departamento.
 \end_layout
 
 \begin_layout Itemize
@@ -252,17 +242,153 @@ Prioridad: Alta.
 \end_layout
 
 \begin_layout Itemize
-Programador Responsable:
-\end_layout
-
-\begin_layout Itemize
-Descripción: Yo como Director de Escuela quiero que, la información se muestre
- con los mismos datos que el archivo adjuntado en el correo enviado a Guillermo
- Rojas el 9 de mayo a las 9:49 del 2013, asumiendo los permisos de acceso.
+Descripción: Yo como Director de Departamento quiero que, la información
+ se muestre con los mismos datos que el archivo adjuntado en el correo enviado
+ a Guillermo Rojas el 9 de mayo a las 9:49 del 2013, asumiendo los permisos
+ de acceso.
 \end_layout
 
 \begin_layout Itemize
 Observaciones:
+\end_layout
+
+\begin_layout Subsection
+Número: 5
+\end_layout
+
+\begin_layout Itemize
+Historia: Permisos de cada rol.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Anónimo.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Media.
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Departamento quiero que, un usuario como
+ rol de anónimo, es decir cualquier ser humano, que visite la página y no
+ se haya logueado, pueda ver la cantidad minima de información.
+ Es decir, permisos sólo de lectura y accediendo sólo a poder ver información
+ no sensible ni personal.
+\end_layout
+
+\begin_layout Itemize
+Observaciones:
+\end_layout
+
+\begin_layout Subsection
+Número: 6
+\end_layout
+
+\begin_layout Itemize
+Historia: Permisos de cada rol.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Vicerrector Académico.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Media.
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Departamento quiero que, el vicerrector
+ pueda crear, modificar, borrar, y leer, a todos los académicos de todas
+ las escuelas.
+ 
+\end_layout
+
+\begin_layout Itemize
+Observaciones:
+\end_layout
+
+\begin_layout Subsection
+Número: 7
+\end_layout
+
+\begin_layout Itemize
+Historia: Permisos de cada rol.
+\end_layout
+
+\begin_layout Itemize
+Usuario: Director de departamento.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Media.
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Departamento quiero que, el director de
+ departamento y su secretaria pueda crear, modificar, borrar, y leer, a
+ todos los académicos pero únicamente de su escuela asociada.
+ 
+\end_layout
+
+\begin_layout Itemize
+Observaciones:
+\end_layout
+
+\begin_layout Subsection
+Número: 
+\end_layout
+
+\begin_layout Itemize
+Historia: Estadísticas
+\end_layout
+
+\begin_layout Itemize
+Usuario: Vicerrector Académico.
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Media-Alta.
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Departamente quiero que el Vicerrector
+ Académico pueda acceder a estadísticas de las escuelas, tales como cantidad
+ de académicos, por facultad, por departamentos y la universidad completa
+ Así mismo, ver por departamento poder ver cantidad de mujeres vs hombres,
+ por jerarquía (Titular, asociado, asistente, instructor) Por Grado (Escala
+ Unica de Sueldos) Por títulos Por Grados Por especialidad.
+\end_layout
+
+\begin_layout Itemize
+Observaciones: Con el tiempo mientras se desarrolle, en un scrum se puede
+ hilar más fino.
+\end_layout
+
+\begin_layout Subsection
+Número: X
+\end_layout
+
+\begin_layout Itemize
+Historia: Vistas de la capa más alta.
+\end_layout
+
+\begin_layout Itemize
+Usuario: 
+\end_layout
+
+\begin_layout Itemize
+Prioridad: Media-Alta.
+\end_layout
+
+\begin_layout Itemize
+Descripción: Yo como Director de Departamente quiero, independiente de su
+ rol que visite la página web, podrá ver datos personales (algunos opcionales,
+ ejemplo dirección, foto), datos académicos y datos profesionales.
+\end_layout
+
+\begin_layout Itemize
+Observaciones: Con el tiempo mientras se desarrolle, en un scrum se puede
+ hilar más fino.
 \end_layout
 
 \end_body
